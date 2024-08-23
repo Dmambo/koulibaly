@@ -3,7 +3,7 @@ import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 const UpperNav = () => {
   return (
-    <div className="flex text-sm justify-between items-center bg-gray-700 text-gray-400 py-4 px-10">
+    <div className="hidden md:flex text-sm justify-between items-center bg-gray-700 text-gray-400 py-4 px-10">
       <div className="flex text-sm gap-10 items-center bg-gray-700 text-gray-400">
         <div className="flex gap-2">
           {" "}
