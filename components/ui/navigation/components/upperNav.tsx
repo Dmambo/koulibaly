@@ -24,7 +24,7 @@ const UpperNav = () => {
           <span className="flex">
             <Clock5 className=" text-green-600 w-5 h-5" />
           </span>
-          Hours: Mon-Fri: 8am-7pm
+          Heures: Lun-Ven : 8h-19h
         </div>
       </div>
       <div className="flex gap-4">
@@ -64,7 +64,7 @@ const UpperNav = () => {
             </a>
           </div>
         </div>
-        <div className=' text-white'>News & Media</div>
+        <div className=' text-white'>Actualités & Médias</div>
       </div>
     </div>
   );
