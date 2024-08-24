@@ -44,15 +44,15 @@ const LowerNav = () => {
             <div className="absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-md p-4 text-sm text-gray-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               <Link href="/company/about" className="flex items-center gap-5 py-2 hover:text-green-500 border-b group transition-colors duration-300">
                 <ArrowRight className="text-green-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                About
+                À propos
               </Link>
-              <Link href="/company/how-it-works" className="flex items-center gap-5 py-2 hover:text-green-500 border-b group transition-colors duration-300">
+              <Link href="/company/works" className="flex items-center gap-5 py-2 hover:text-green-500 border-b group transition-colors duration-300">
                 <ArrowRight className="text-green-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                How It Works
+                Comment ça marche
               </Link>
               <Link href="/company/team" className="flex items-center gap-5 py-2 hover:text-green-500 group transition-colors duration-300">
                 <ArrowRight className="text-green-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                Team
+                Équipe
               </Link>
             </div>
           </div>

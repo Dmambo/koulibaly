@@ -11,7 +11,6 @@ export const ImagesSlider = ({
   className,
   autoplay = true,
   direction = "up",
-  textOverlays, // New prop for text overlays
 }: {
   images: string[];
   children: React.ReactNode;
@@ -20,7 +19,6 @@ export const ImagesSlider = ({
   className?: string;
   autoplay?: boolean;
   direction?: "up" | "down";
-  textOverlays?: string[]; // Array of text overlays
 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [loading, setLoading] = useState(false);
@@ -60,7 +58,6 @@ export const ImagesSlider = ({
       })
       .catch((error) => console.error("Failed to load images", error));
   };
-
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.key === "ArrowRight") {
@@ -132,7 +129,7 @@ export const ImagesSlider = ({
       {areImagesLoaded && children}
       {areImagesLoaded && overlay && (
         <div
-          className={cn("absolute inset-0 bg-black/60 z-40", overlayClassName)}
+          className={cn("absolute inset-0 bg-black/40 z-40", overlayClassName)}
         />
       )}
 
@@ -148,20 +145,6 @@ export const ImagesSlider = ({
             className="image h-full w-full absolute inset-0 object-cover object-center"
           />
         </AnimatePresence>
-      )}
-
-      {/* Render text overlays */}
-      {textOverlays && (
-        <div className="absolute inset-0 flex flex-col justify-center items-center p-4 text-center">
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.5 }}
-            className="font-bold text-xl md:text-4xl text-white bg-black bg-opacity-50 p-4 rounded"
-          >
-            {textOverlays[currentIndex]}
-          </motion.p>
-        </div>
       )}
     </div>
   );
