@@ -1,4 +1,6 @@
+import { Button } from '@/components/ui/button';
 import { CircleCheck } from 'lucide-react';
+import Link from 'next/link';
 
 const SectionWord = () => {
     return (
@@ -51,6 +53,15 @@ const SectionWord = () => {
                     </div>
                 </div>
             </div>
+<div className=' mt-5'>
+<Link
+           href='/company/works'
+           >
+           <Button>
+            En savoir plus →
+            </Button>
+           </Link>
+</div>
         </div>
     );
 };
