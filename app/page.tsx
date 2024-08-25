@@ -2,6 +2,7 @@ import FirstSection from '@/components/firstsection/page';
 import FourtSection from '@/components/fourthsection/page';
 import {Slider} from '@/components/hero/slider'
 import SecondSection from '@/components/secondsection/page';
+import { Testimony } from '@/components/testimonial';
 import ThirdSection from '@/components/thirdsection/page';
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
      <SecondSection />
      <ThirdSection />
      <FourtSection />
+     <Testimony />
     </div>
   );
 }
