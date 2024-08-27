@@ -1,6 +1,7 @@
 import FirstSection from '@/components/firstsection/page';
 import FourtSection from '@/components/fourthsection/page';
 import {Slider} from '@/components/hero/slider'
+import QuoteSection from '@/components/quotesection/page';
 import SecondSection from '@/components/secondsection/page';
 import ServiceSection from '@/components/servicesection/page';
 import { Testimony } from '@/components/testimonial';
@@ -16,6 +17,7 @@ export default function Home() {
      <FourtSection />
      <Testimony />
      <ServiceSection/>
+     <QuoteSection/>
     </div>
   );
 }
