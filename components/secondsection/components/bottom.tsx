@@ -9,7 +9,7 @@ const Bottom = () => {
       <div className="relative z-10 md:w-1/2 flex flex-col items-start bg-black bg-opacity-50 p-4 rounded-lg md:bg-transparent md:p-0">
         <h4 className="mb-4">
           Si vous avez des questions ou besoin d'aide, n'hésitez pas à contacter notre équipe, ou vous pouvez nous appeler à tout moment{" "}
-          <span className="text-green-500">(224) 613956391</span>
+          <span className="text-blue-500">(224) 613956391</span>
         </h4>
         <Button className="bg-transparent text-white border border-white">
           Consultation gratuite <ArrowRightIcon className="h-4 w-4 ml-2" />

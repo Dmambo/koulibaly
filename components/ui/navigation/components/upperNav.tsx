@@ -8,13 +8,13 @@ const UpperNav = () => {
         <div className="flex gap-2">
           {" "}
           <span className="flex">
-            <Phone className=" text-green-600 w-5 h-5" /></span>
+            <Phone className=" text-blue-600 w-5 h-5" /></span>
           Phone: <span className=" hover:text-green-400">+224613956391</span>
         </div>
         <div className="flex gap-2">
           {" "}
           <span className="flex">
-            <Mail className=" text-green-600 w-5 h-5" />
+            <Mail className=" text-blue-600 w-5 h-5" />
           </span>
           Email:{" "}
           <span className=" hover:text-green-400">ibkhalidworld@gmail.com</span>
@@ -22,7 +22,7 @@ const UpperNav = () => {
         <div className="flex gap-2">
           {" "}
           <span className="flex">
-            <Clock5 className=" text-green-600 w-5 h-5" />
+            <Clock5 className=" text-blue-600 w-5 h-5" />
           </span>
           Heures: Lun-Ven : 8h-19h
         </div>
@@ -36,7 +36,7 @@ const UpperNav = () => {
               rel="noopener noreferrer"
               aria-label="Facebook"
             >
-              <FaFacebook className="text-xl text-black p-1 rounded-3xl bg-green-600 hover:text-white transition duration-300 ease-in-out" />
+              <FaFacebook className="text-xl text-black p-1 rounded-3xl bg-blue-600 hover:text-white transition duration-300 ease-in-out" />
             </a>
             <a
               href="https://twitter.com"
@@ -44,7 +44,7 @@ const UpperNav = () => {
               rel="noopener noreferrer"
               aria-label="Twitter"
             >
-              <FaTwitter className="text-xl text-black p-1 rounded-3xl bg-green-600 hover:text-white transition duration-300 ease-in-out" />
+              <FaTwitter className="text-xl text-black p-1 rounded-3xl bg-blue-600 hover:text-white transition duration-300 ease-in-out" />
             </a>
             <a
               href="https://linkedin.com"
@@ -52,7 +52,7 @@ const UpperNav = () => {
               rel="noopener noreferrer"
               aria-label="LinkedIn"
             >
-              <FaLinkedin className="text-xl text-black p-1 rounded-3xl bg-green-600 hover:text-white transition duration-300 ease-in-out" />
+              <FaLinkedin className="text-xl text-black p-1 rounded-3xl bg-blue-600 hover:text-white transition duration-300 ease-in-out" />
             </a>
             <a
               href="https://instagram.com"
@@ -60,7 +60,7 @@ const UpperNav = () => {
               rel="noopener noreferrer"
               aria-label="Instagram"
             >
-              <FaInstagram className="text-xl text-black p-1 rounded-3xl bg-green-600 hover:text-white transition duration-300 ease-in-out" />
+              <FaInstagram className="text-xl text-black p-1 rounded-3xl bg-blue-600 hover:text-white transition duration-300 ease-in-out" />
             </a>
           </div>
         </div>

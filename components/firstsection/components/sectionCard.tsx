@@ -13,7 +13,7 @@ const SectionCard = () => {
                 className=' rounded-lg'
             />
             {/* overlay */}
-            <div className='absolute top-14 left-0 bg-green-600 p-5 z-10 text-white flex flex-col justify-center  items-center'>
+            <div className='absolute top-14 left-0 bg-blue-600 p-5 z-10 text-white flex flex-col justify-center  items-center'>
                 <div className='mb-4'>
                     <Fan size={52}  className=' text-white'/>
                 </div>
