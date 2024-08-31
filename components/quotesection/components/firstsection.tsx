@@ -7,25 +7,27 @@ const FirstSection = () => {
       {/* Title and Subtitle */}
       <div className="text-center md:text-left">
         <p className="text-base  mb-4">
-          Improving The Performance Of Solar Energy.
+          Améliorer les performances de l'énergie solaire.
         </p>
         <h1 className="text-3xl md:text-4xl font-bold leading-tight">
-          Discover Independence
+          Découvrez l'indépendance
           <br />
-          Through Using The Power
+          grâce à la puissance
           <br />
-          Of Solar Panels!
+          des panneaux solaires !
         </h1>
       </div>
 
       {/* Description */}
       <div className="text-center md:text-left">
         <p className=" ">
-          We offer products, solutions, and services across the entire energy
+          Nous offrons des produits, solutions et services tout au long de la chaîne
           <br />
-          value chain. We support our customers on their way to a more <br />
-          sustainable future – no matter how far along the journey to <br />
-          energize society with affordable energy systems.
+          de valeur énergétique. Nous soutenons nos clients dans leur transition vers un 
+          <br />
+          avenir plus durable, quel que soit le stade de leur parcours pour 
+          <br />
+          énergiser la société avec des systèmes énergétiques abordables.
         </p>
       </div>
 
@@ -33,11 +35,11 @@ const FirstSection = () => {
       <div>
         <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {[
-            "Efficient",
-            "Cost-effective",
-            "Reliable",
-            "Environmentally friendly",
-            "50% more energy output",
+            "Efficace",
+            "Rentable",
+            "Fiable",
+            "Écologique",
+            "50% plus de rendement énergétique",
           ].map((item, index) => (
             <li key={index} className="flex items-center gap-3">
               <CircleCheck
@@ -53,15 +55,16 @@ const FirstSection = () => {
       {/* Call to Action Button */}
       <div className="text-center md:text-left">
         <Button className="bg-white text-black px-6 py-3 rounded-lg border border-transparent hover:bg-transparent hover:text-white hover:border-white transition-colors duration-300">
-          Learn More
+          En savoir plus
         </Button>
       </div>
-      {/* botton side */}
-      <div className=" flex items-center gap-2">
+      {/* Bottom Side */}
+      <div className="flex items-center gap-2">
         <BadgeAlert size={44} color="white" className="text-green-500" />
         <span>
-          Receive an accurate quote within 3-5 days when you fill out <br/> this form.
-          Or, give us a call: <span className=" underline hover:no-underline hover:text-green-500">(224) 956391</span>
+          Recevez un devis précis sous 3 à 5 jours en remplissant 
+          <br/> ce formulaire.
+          Ou appelez-nous : <span className="underline hover:no-underline hover:text-green-500">(224) 956391</span>
         </span>
       </div>
     </div>

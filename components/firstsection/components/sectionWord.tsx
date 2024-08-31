@@ -7,7 +7,7 @@ const SectionWord = () => {
         <div>
             {/* top */}
             <div>
-                <h3 className='bg-green-200 p-2 sm:p-4 text-left text-green-700 mb-4 sm:mb-7 text-sm sm:text-base font-bold inline-block rounded-sm'>
+                <h3 className='bg-blue-200 p-2 sm:p-4 text-left text-blue-700 mb-4 sm:mb-7 text-sm sm:text-base font-bold inline-block rounded-sm'>
                     Système solaire complet pour les entreprises et les résidences
                 </h3>
             </div>
@@ -40,15 +40,15 @@ const SectionWord = () => {
                 {/* list with checkbox */}
                 <div className='space-y-2'>
                     <div className='flex items-center gap-2 px-2 py-1 sm:px-4 sm:py-2'>
-                        <CircleCheck className='bg-green-600 text-white rounded-3xl' />
+                        <CircleCheck className='bg-blue-600 text-white rounded-3xl' />
                         <label className='text-sm sm:text-base'>Fiabilité et performance</label>
                     </div>
                     <div className='flex items-center gap-2 px-2 py-1 sm:px-4 sm:py-2'>
-                        <CircleCheck className='bg-green-600 text-white rounded-3xl' />
+                        <CircleCheck className='bg-blue-600 text-white rounded-3xl' />
                         <label className='text-sm sm:text-base'>Fabrication juste-à-temps</label>
                     </div>
                     <div className='flex items-center gap-2 px-2 py-1 sm:px-4 sm:py-2'>
-                        <CircleCheck className='bg-green-600 text-white rounded-3xl' />
+                        <CircleCheck className='bg-blue-600 text-white rounded-3xl' />
                         <label className='text-sm sm:text-base'>Financement du matériel solaire</label>
                     </div>
                 </div>

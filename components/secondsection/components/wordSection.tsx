@@ -4,7 +4,7 @@ const WordSection = () => {
             {/* first section */}
             <div className="flex flex-col">
                 <div>
-                    <p className=" text-green-500 mb-8">
+                    <p className=" text-blue-500 mb-8">
                         Énergie durable, fiable et abordable!
                     </p>
                 </div>
@@ -29,7 +29,7 @@ const WordSection = () => {
                 {/* button */}
                 <div className="flex gap-4">
                     <div>
-                        <button className="bg-green-500 text-white py-2 px-4 rounded-lg mt-4">
+                        <button className="bg-blue-500 text-white py-2 px-4 rounded-lg mt-4">
                             Commencer
                         </button>
                     </div>

@@ -34,7 +34,7 @@ const SecondSection = () => {
         )
         .then(
             (result) => {
-                alert('Your message has been sent successfully. We will get back to you shortly.');
+                alert('Votre message a été envoyé avec succès. Nous vous répondrons sous peu.');
                 setFormData({
                     name: "",
                     email: "",
@@ -46,20 +46,20 @@ const SecondSection = () => {
                 });
             },
             error => {
-                alert('An error occurred, Please try again');
+                alert("Une erreur s'est produite, veuillez réessayer");
             }
         )
     };
   return (
     <div className="bg-white p-10 text-black max-w-xl mx-auto shadow-lg rounded-lg text-left">
-      <h2 className="text-3xl font-semibold mb-6 ">Request a Quote</h2>
+      <h2 className="text-3xl font-semibold mb-6 ">Demander un devis</h2>
       <p className="text-sm text-gray-500 my-4 leading-1">
-        We take great pride in everything that we do, ensuring our customers receive the best quality service in solar and electricity solutions.
+        Nous sommes fiers de tout ce que nous faisons, en veillant à ce que nos clients reçoivent le meilleur service en solutions solaires et électriques.
       </p>
       <form onSubmit={handleSubmit}>
         <div className="flex gap-5">
         <div className="mb-4">
-          <label htmlFor="name" className="block text-sm font-medium mb-2">Name</label>
+          <label htmlFor="name" className="block text-sm font-medium mb-2">Nom</label>
           <input
             type="text"
             id="name"
@@ -67,7 +67,7 @@ const SecondSection = () => {
             value={formData.name}
             onChange={handleChange}
             className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 text-sm"
-            placeholder="Your Name"
+            placeholder="Votre nom"
           />
         </div>
 
@@ -80,13 +80,13 @@ const SecondSection = () => {
             value={formData.email}
             onChange={handleChange}
             className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 text-sm"
-            placeholder="Your Email"
+            placeholder="Votre email"
           />
         </div>
         </div>
 
         <div className="mb-4">
-          <label htmlFor="phone" className="block text-sm font-medium mb-2">Phone Number</label>
+          <label htmlFor="phone" className="block text-sm font-medium mb-2">Numéro de téléphone</label>
           <input
             type="tel"
             id="phone"
@@ -94,11 +94,11 @@ const SecondSection = () => {
             value={formData.phone}
             onChange={handleChange}
             className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 text-sm"
-            placeholder="+224 Your Phone Number"
+            placeholder="+224 Votre numéro de téléphone"
           />
         </div>
         <div className="mb-4">
-            <label htmlFor="serviceType" className="block text-sm font-medium mb-2">Service Type</label>
+            <label htmlFor="serviceType" className="block text-sm font-medium mb-2">Type de service</label>
             <select
               id="serviceType"
               name="serviceType"
@@ -107,16 +107,16 @@ const SecondSection = () => {
               className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
               required
             >
-              <option value="" disabled selected>Select a service</option>
-              <option value="solar">Solar Panel Installation</option>
-              <option value="electrical">Electrical System Setup</option>
-              <option value="maintenance">Maintenance & Repairs</option>
-              <option value="consultation">Consultation & Design</option>
+              <option value="" disabled selected>Choisissez un service</option>
+              <option value="solar">Installation de panneaux solaires</option>
+              <option value="electrical">Installation de systèmes électriques</option>
+              <option value="maintenance">Maintenance et réparations</option>
+              <option value="consultation">Consultation et conception</option>
             </select>
           </div>
 
           <div className="mb-4">
-            <label htmlFor="projectScope" className="block text-sm font-medium mb-2">Project Scope</label>
+            <label htmlFor="projectScope" className="block text-sm font-medium mb-2">Portée du projet</label>
             <textarea
               id="projectScope"
               name="projectScope"
@@ -124,13 +124,13 @@ const SecondSection = () => {
                 onChange={handleChange}
               rows="4"
               className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
-              placeholder="Describe your project needs (e.g., residential, commercial, size, location)"
+              placeholder="Décrivez les besoins de votre projet (par exemple, résidentiel, commercial, taille, emplacement)"
               required
             ></textarea>
           </div>
 
           <div className="mb-4">
-            <label htmlFor="preferredDate" className="block text-sm font-medium mb-2">Preferred Date</label>
+            <label htmlFor="preferredDate" className="block text-sm font-medium mb-2">Date préférée</label>
             <input
               type="date"
               id="preferredDate"
@@ -142,7 +142,7 @@ const SecondSection = () => {
           </div>
 
             <div className="mb-4">
-                <label htmlFor="preferredTime" className="block text-sm font-medium mb-2">Preferred Time</label>
+                <label htmlFor="preferredTime" className="block text-sm font-medium mb-2">Heure préférée</label>
                 <input
                 type="time"
                 id="preferredTime"
@@ -155,7 +155,7 @@ const SecondSection = () => {
 
         <div className="text-center">
           <Button type="submit" className=" text-white px-6 py-3 rounded-lg hover:bg-green-500 hover:text-white hover:border-white transition-colors duration-300">
-            Submit
+            Envoyer
           </Button>
         </div>
       </form>

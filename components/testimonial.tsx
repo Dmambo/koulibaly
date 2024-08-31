@@ -6,12 +6,12 @@ import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 export function Testimony() {
   return (
     <div className="h-[30rem]  flex flex-col antialiased bg-black dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
-        <div className=" text-green-500 text-sm py-7">
-            <p>Hear what people say about us</p>
+        <div className=" text-blue-500 text-sm py-7">
+            <p>Écoutez ce que les gens disent de nous</p>
         </div>
         <div>
             <h1 className=" text-xl md:text-3xl text-white mb-5">
-                Let's hear from our satisfied <br/>customers and partners.
+                Écoutons nos clients <br/>et partenaires satisfaits.
             </h1>
         </div>
       <InfiniteMovingCards
@@ -26,28 +26,27 @@ export function Testimony() {
 const testimonials = [
     {
       name: "Marie L.",
-      quote: "The solar panel installation was smooth and efficient. Our electricity bills have drastically reduced, and we’re thrilled with the service!",
-      title: "Homeowner",
+      quote: "L'installation des panneaux solaires a été fluide et efficace. Nos factures d'électricité ont considérablement diminué, et nous sommes ravis du service!",
+      title: "Propriétaire",
     },
     {
       name: "Ahmed T.",
-      quote: "Our company’s wind turbine setup was handled with great professionalism. The team provided excellent support throughout the process.",
-      title: "Business Owner",
+      quote: "L'installation des éoliennes de notre entreprise a été réalisée avec un grand professionnalisme. L'équipe a fourni un excellent support tout au long du processus.",
+      title: "Chef d'entreprise",
     },
     {
       name: "Sophie K.",
-      quote: "The hydropower plant maintenance team was incredibly knowledgeable. They ensured everything was running smoothly. Highly recommend!",
-      title: "Plant Manager",
+      quote: "L'équipe de maintenance de la centrale hydroélectrique était incroyablement compétente. Ils ont veillé à ce que tout fonctionne parfaitement. Hautement recommandé!",
+      title: "Responsable d'usine",
     },
     {
       name: "Jean M.",
-      quote: "Amazing service! The team’s expertise in renewable energy is unmatched. We’re seeing significant savings and a positive environmental impact.",
-      title: "CEO, GreenTech Corp",
+      quote: "Service incroyable! L'expertise de l'équipe en énergie renouvelable est inégalée. Nous constatons des économies importantes et un impact environnemental positif.",
+      title: "PDG, GreenTech Corp",
     },
     {
       name: "Laura R.",
-      quote: "The consultation process was seamless. They provided clear, actionable advice that helped us make the best decisions for our project.",
-      title: "Project Coordinator",
+      quote: "Le processus de consultation a été fluide. Ils ont fourni des conseils clairs et concrets qui nous ont aidés à prendre les meilleures décisions pour notre projet.",
+      title: "Coordinatrice de projet",
     },
   ];
-  
