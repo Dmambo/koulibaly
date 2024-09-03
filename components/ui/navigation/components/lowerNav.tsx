@@ -52,38 +52,9 @@ const LowerNav = () => {
           <Link href="/" className="transition-colors hover:text-blue-500">
             Accueil
           </Link>
-
-          {/* Dropdown for Entreprise */}
-          <div className="relative group">
-            <button
-              className="flex items-center gap-2 transition-colors hover:text-blue-500"
-            >
-              Entreprise <ChevronDown />
-            </button>
-            <div className="absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-md p-4 text-sm text-gray-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <Link
-                href="/company/about"
-                className="flex items-center gap-5 py-2 hover:text-blue-500 border-b group transition-colors duration-300"
-              >
-                <ArrowRight className="text-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                À propos
-              </Link>
-              <Link
-                href="/company/works"
-                className="flex items-center gap-5 py-2 hover:text-blue-500 border-b group transition-colors duration-300"
-              >
-                <ArrowRight className="text-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                Comment ça marche
-              </Link>
-              <Link
-                href="/company/team"
-                className="flex items-center gap-5 py-2 hover:text-blue-500 group transition-colors duration-300"
-              >
-                <ArrowRight className="text-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                Équipe
-              </Link>
-            </div>
-          </div>
+          <Link href="/company" className="transition-colors hover:text-blue-500">
+            Entreprise
+          </Link>
 
           <Link href="/services" className="transition-colors hover:text-blue-500">
             Services
@@ -149,14 +120,14 @@ const LowerNav = () => {
                           <ArrowRight className="text-blue-500 inline-block mr-2" />
                           Comment ça marche
                         </Link>
-                        <Link
+                        {/* <Link
                           href="/company/team"
                           className="block px-4 py-2 hover:text-blue-500"
                           onClick={closeMenu}
                         >
                           <ArrowRight className="text-blue-500 inline-block mr-2" />
                           Équipe
-                        </Link>
+                        </Link> */}
                       </motion.div>
                     )}
                   </AnimatePresence>
