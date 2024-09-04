@@ -15,7 +15,7 @@ const Company: React.FC = () => {
           <div className="flex justify-center mb-8">
             <div className="relative w-96 h-32 md:w-2/3 md:h-96">
               <Image
-                src="/supply.jpg" // Replace with the path to your actual image
+                src="/3.jpeg" // Replace with the path to your actual image
                 alt="Siège de Sotrelec"
                 layout="fill"
                 objectFit="cover"

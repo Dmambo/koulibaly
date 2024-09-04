@@ -8,35 +8,36 @@ const Cards = () => {
     const items = [
         {
             icon: Sun,
-            title: "Services de panneaux solaires",
-            desc: "L'avantage des panneaux solaires est qu'ils peuvent être installés sur n'importe quel toit. Nous proposons une large gamme de panneaux solaires à la vente et à l'installation.",
+            title: "Panneaux Solaires",
+            desc: "Nous proposons une large gamme de panneaux solaires de haute qualité pour la vente et l'installation, adaptés à tous types de toitures. Optimisez votre consommation d'énergie avec nos solutions durables.",
             list: [
-                "Nettoyage de l'onduleur",
-                "Effectuer des tests d'ombrage",
-                "Garantie de réparation de 90 jours"
+                "Nettoyage et entretien de l'onduleur",
+                "Analyse de l'ombrage pour performance optimale",
+                "Garantie de réparation étendue"
             ],
         },
         {
             icon: Wind,
-            title: "Services d'éoliennes",
-            desc: "Les éoliennes sont un excellent moyen de produire de l'électricité. Nous proposons une large gamme d'éoliennes à la vente et à l'installation.",
+            title: "Éoliennes",
+            desc: "Nos solutions éoliennes sont conçues pour maximiser la production d'électricité tout en réduisant les coûts d'exploitation. Découvrez notre gamme d'éoliennes pour des installations fiables et performantes.",
             list: [
-                "La proactivité est meilleure",
-                "Réduction des coûts pour vous",
-                "Garantie de maintenance"
+                "Maintenance proactive",
+                "Réduction des coûts opérationnels",
+                "Garantie de maintenance préventive"
             ],
         },
         {
             icon: Droplet,
-            title: "Services de centrales hydroélectriques",
-            desc: "Les systèmes hydroélectriques sont des actifs intensifs en capital qui peuvent générer des revenus importants pendant des décennies, à condition qu'ils soient exploités et entretenus selon des normes élevées.",
+            title: "Centrales Hydroélectriques",
+            desc: "Exploitez le potentiel de l'énergie hydraulique avec nos centrales hydroélectriques. Nous offrons des services de gestion, d'optimisation, et de maintenance pour assurer une production continue et efficace.",
             list: [
-                "Optimisation des actifs",
-                "Exploitation & maintenance",
-                "Numérisation & automatisation"
+                "Optimisation des actifs hydroélectriques",
+                "Services d'exploitation et de maintenance",
+                "Intégration de solutions numériques et automatisées"
             ],
         }
     ];
+    
 
     const [currentIndex, setCurrentIndex] = useState(0);
 

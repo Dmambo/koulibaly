@@ -8,8 +8,8 @@ const Bottom = () => {
       {/* Text Section */}
       <div className="relative z-10 md:w-1/2 flex flex-col items-start bg-black bg-opacity-50 p-4 rounded-lg md:bg-transparent md:p-0">
         <h4 className="mb-4">
-          Si vous avez des questions ou besoin d'aide, n'hésitez pas à contacter notre équipe, ou vous pouvez nous appeler à tout moment{" "}
-          <span className="text-blue-500">(224) 613956391</span>
+          Vous avez des questions ou besoin d'assistance? Notre équipe est là pour vous aider. Contactez-nous à tout moment ou appelez-nous au{" "}
+          <span className="text-blue-500">(224) 613956391</span>.
         </h4>
         <Button className="bg-transparent text-white border border-white">
           Consultation gratuite <ArrowRightIcon className="h-4 w-4 ml-2" />
@@ -22,11 +22,10 @@ const Bottom = () => {
           width={720}
           height={600}
           alt="bottom"
-          className=" relative rounded-2xl object-cover w-full h-full"
-          
+          className="relative rounded-2xl object-cover w-full h-full"
         />
         <span className='absolute bottom-2 p-2 hidden md:block'>
-            <Button variant={"destructive"}>Regardez-nous sur Youtube</Button>
+          <Button variant={"destructive"}>Regardez-nous sur YouTube</Button>
         </span>
       </div>
     </div>

@@ -1,12 +1,14 @@
 const Top = () => {
   return (
-    <div className=' flex flex-col justify-center items-center text-center'>
+    <div className='flex flex-col justify-center items-center text-center'>
       <div>
-        <p className=' text-blue-500 mb-10 text-lg'>Énergisez la société avec de l'énergie durable !</p>
+        <p className='text-blue-500 mb-10 text-lg'>
+          Éclairons l'avenir avec des solutions énergétiques durables !
+        </p>
       </div>
       <div>
-        <h1 className=' font-extrabold text-4xl inline-block'>
-          Un fournisseur leader de matériaux solaires <br/> pour les fabricants,<br/> installateurs & entrepreneurs.
+        <h1 className='font-extrabold text-4xl inline-block'>
+          Votre partenaire de confiance en solutions énergétiques <br /> pour fabricants, <br /> installateurs et entrepreneurs.
         </h1>
       </div>
     </div>

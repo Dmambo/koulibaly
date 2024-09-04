@@ -62,9 +62,7 @@ const LowerNav = () => {
           <Link href="/project" className="transition-colors hover:text-blue-500">
             Projet
           </Link>
-          <Link href="/blog" className="transition-colors hover:text-blue-500">
-            Blog
-          </Link>
+         
           <Link href="/contact" className="transition-colors hover:text-blue-500">
             Contact
           </Link>
@@ -147,13 +145,7 @@ const LowerNav = () => {
                 >
                   Projet
                 </Link>
-                <Link
-                  href="/blog"
-                  className="py-2 text-lg hover:text-blue-500"
-                  onClick={closeMenu}
-                >
-                  Blog
-                </Link>
+          
                 <Link
                   href="/contact"
                   className="py-2 text-lg hover:text-blue-500"

@@ -8,39 +8,39 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: 'National Electrical Grid Enhancement',
+    title: 'Renforcement du Réseau Électrique National',
     description:
-      'Upgrading the national grid with modern high and low voltage systems to improve reliability and efficiency.',
-    image: '/images/grid-enhancement.jpg',
+      'Mise à niveau du réseau national avec des systèmes haute et basse tension modernes pour améliorer la fiabilité et l’efficacité.',
+    image: '/3.jpeg',
   },
   {
-    title: 'Solar Power Plant Installation',
+    title: 'Installation d\'une Centrale Solaire',
     description:
-      'Installation of a large-scale solar power plant to provide renewable energy to remote areas.',
-    image: '/images/solar-plant.jpg',
+      'Installation d\'une centrale solaire à grande échelle pour fournir de l\'énergie renouvelable aux zones isolées.',
+    image: '/2.jpeg',
   },
   {
-    title: 'Industrial Automation for Manufacturing',
+    title: 'Automatisation Industrielle pour la Fabrication',
     description:
-      'Implementation of automation systems in a manufacturing plant, improving production efficiency and safety.',
-    image: '/images/automation.jpg',
+      'Mise en œuvre de systèmes d\'automatisation dans une usine de fabrication, améliorant ainsi l\'efficacité de la production et la sécurité.',
+    image: '/1.jpeg',
   },
   {
-    title: 'Smart Building Implementation',
+    title: 'Implémentation d\'un Bâtiment Intelligent',
     description:
-      'Development of a smart building system for an office complex, including energy management and security systems.',
+      'Développement d\'un système de bâtiment intelligent pour un complexe de bureaux, incluant la gestion de l\'énergie et des systèmes de sécurité.',
     image: '/images/smart-building.jpg',
   },
   {
-    title: 'Temporary Power Solution for Events',
+    title: 'Solution Temporaire d\'Énergie pour Événements',
     description:
-      'Provision of temporary power solutions for large events, ensuring uninterrupted power supply.',
-    image: '/images/temp-power.jpg',
+      'Fourniture de solutions d\'énergie temporaire pour de grands événements, garantissant une alimentation électrique ininterrompue.',
+    image: '/3.jpeg',
   },
   {
-    title: 'Hydropower Station Development',
+    title: 'Développement d\'une Station Hydroélectrique',
     description:
-      'Construction of a hydropower station to harness water energy, providing a sustainable power source for rural communities.',
+      'Construction d\'une station hydroélectrique pour exploiter l\'énergie de l\'eau, fournissant une source d\'énergie durable aux communautés rurales.',
     image: '/images/hydro-power.jpg',
   },
 ];
@@ -49,7 +49,7 @@ const Projects: React.FC = () => {
   return (
     <section className="bg-gray-100 py-12">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-8">Our Projects</h2>
+        <h2 className="text-3xl font-bold text-center mb-8">Nos Projets</h2>
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {projects.map((project, index) => (
             <div key={index} className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
