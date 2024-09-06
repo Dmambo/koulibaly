@@ -1,5 +1,6 @@
 "use client"
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 
 const Contact: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -15,19 +16,38 @@ const Contact: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission logic here
-    console.log('Form data submitted:', formData);
+    emailjs
+      .send(
+        'service_r4qauao', // Your EmailJS service ID
+        'template_ed1eqix', // Your EmailJS template ID
+        formData,
+        'qfKYZS8k3qOWMhcIm' // Your EmailJS public key
+      )
+      .then(
+        (result) => {
+          alert('Merci pour votre demande. Nous vous répondrons sous peu.');
+          setFormData({
+            name: '',
+            email: '',
+            phone: '',
+            message: '',
+          });
+        },
+        (error) => {
+          alert("Une erreur est survenue lors de l'envoi du message. Veuillez réessayer.");
+        }
+      );
   };
 
   return (
     <section className="bg-gray-100 py-12">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-8">Contact Us</h2>
+        <h2 className="text-3xl font-bold text-center mb-8">Contactez-nous</h2>
         <div className="max-w-xl mx-auto bg-white p-8 rounded-lg shadow-md">
           <form onSubmit={handleSubmit}>
             <div className="mb-4">
               <label htmlFor="name" className="block text-gray-700 font-semibold mb-2">
-                Name
+                Nom
               </label>
               <input
                 type="text"
@@ -55,7 +75,7 @@ const Contact: React.FC = () => {
             </div>
             <div className="mb-4">
               <label htmlFor="phone" className="block text-gray-700 font-semibold mb-2">
-                Phone
+                Téléphone
               </label>
               <input
                 type="tel"
@@ -86,7 +106,7 @@ const Contact: React.FC = () => {
                 type="submit"
                 className="bg-green-500 text-white font-semibold py-3 px-6 rounded-lg hover:bg-green-600 transition-colors"
               >
-                Send Message
+                Envoyer le message
               </button>
             </div>
           </form>

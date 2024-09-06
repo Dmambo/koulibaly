@@ -8,26 +8,27 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 const CardSection = () => {
   const cards = [
     {
-      title: "Économisez votre argent",
+      title: "Optimisez Vos Coûts Énergétiques",
       icon: WalletCards,
-      desc: "Économisez de l'argent sur les services publics ou augmentez la valeur de votre maison en installant des panneaux solaires comme une excellente option.",
+      desc: "Réduisez vos factures d'énergie et augmentez la valeur de votre propriété en adoptant nos solutions solaires innovantes.",
     },
     {
-      title: "Votre maison est une économie",
+      title: "Une Énergie Inépuisable Pour Votre Maison",
       icon: HousePlug,
-      desc: "Chaque jour, le soleil nous fournit une abondance d'énergie gratuite en plaçant des panneaux solaires sur votre toit.",
+      desc: "Profitez de l'abondance d'énergie solaire en installant nos panneaux solaires performants sur votre toit.",
     },
     {
-      title: "Consultation & Planification",
+      title: "Consultation & Planification Personnalisées",
       icon: Plane,
-      desc: "Nos systèmes solaires industriels distants sont conçus pour alimenter de manière fiable les sites distants critiques de nos clients.",
+      desc: "Nous concevons des systèmes solaires industriels robustes et fiables pour répondre aux besoins énergétiques spécifiques de vos sites éloignés.",
     },
     {
-      title: "Ingénieurs Certifiés",
+      title: "Expertise Certifiée en Ingénierie",
       icon: Leaf,
-      desc: "Nos ingénieurs commerciaux ont de l'expérience et peuvent concevoir tout système solaire complet.",
+      desc: "Nos ingénieurs certifiés conçoivent des solutions solaires complètes adaptées à vos exigences énergétiques uniques.",
     },
   ];
+  
 
   const [currentIndex, setCurrentIndex] = useState(0);
 

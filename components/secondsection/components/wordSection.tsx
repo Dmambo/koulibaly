@@ -4,26 +4,26 @@ const WordSection = () => {
             {/* first section */}
             <div className="flex flex-col">
                 <div>
-                    <p className=" text-blue-500 mb-8">
-                        Énergie durable, fiable et abordable!
+                    <p className="text-blue-500 mb-8">
+                        Solutions énergétiques durables, fiables et accessibles.
                     </p>
                 </div>
                 <div>
-                    <h1 className=" text-3xl">
-                        Apporter de la valeur à nos clients grâce à l'innovation continue des produits.
+                    <h1 className="text-3xl">
+                        Créer de la valeur pour nos clients à travers l'innovation continue de nos produits.
                     </h1>
                 </div>
             </div>
             {/* second section */}
             <div className="flex flex-col ">
-                <div className=" mb-10">
-                    <p className=" ">
-                        Tout en améliorant le rendement et la performance des produits solaires, notre expérience dans l'industrie PV nous permet d'offrir une expertise approfondie en matière d'approvisionnement en matériaux, de financement et de chaîne d'approvisionnement à chaque étape.
+                <div className="mb-10">
+                    <p>
+                        Nous optimisons continuellement la performance de nos produits solaires. Avec notre vaste expérience dans l'industrie photovoltaïque, nous offrons une expertise complète en matière de gestion de la chaîne d'approvisionnement, de financement et d'approvisionnement en matériaux à chaque étape du processus.
                     </p>
                 </div>
                 <div>
-                    <p className=" ">
-                        Silicone polycristallin brut pour la fabrication de PV. Offert en différentes qualités et formats, y compris des morceaux, des copeaux, de la poudre et des lingots.
+                    <p>
+                        Nos solutions incluent des matériaux photovoltaïques de haute qualité tels que le silicium polycristallin brut, disponible sous forme de morceaux, copeaux, poudre, et lingots, adaptés à vos besoins spécifiques.
                     </p>
                 </div>
                 {/* button */}
@@ -34,7 +34,7 @@ const WordSection = () => {
                         </button>
                     </div>
                     <div>
-                        <button className=" text-white py-2 px-4 rounded-lg mt-4 border border-white">
+                        <button className="text-white py-2 px-4 rounded-lg mt-4 border border-white">
                             En savoir plus
                         </button>
                     </div>

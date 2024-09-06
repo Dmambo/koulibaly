@@ -8,54 +8,48 @@ interface Service {
 
 const services: Service[] = [
   {
-    title: 'High and Low Voltage Systems',
+    title: 'Systèmes Haute et Basse Tension',
     description:
-      'Design, installation, and maintenance of electrical substations. Integration of prefabricated stations in concrete or metal.',
+      "Nous concevons, installons et maintenons des postes électriques haute et basse tension, intégrant des stations préfabriquées en béton ou en métal, pour des infrastructures fiables et sécurisées.",
     icon: <span>🔌</span>,
   },
   {
-    title: 'Renewable Energy Solutions',
+    title: 'Solutions d\'Énergie Renouvelable',
     description:
-      'Expertise in wind and solar power systems. Installation and maintenance of wind turbines and photovoltaic panels.',
+      "Experts en énergies renouvelables, nous proposons des solutions clés en main pour l'installation et la maintenance de systèmes éoliens et solaires, garantissant une énergie propre et durable.",
     icon: <span>🌞</span>,
   },
   {
-    title: 'Temporary Power Solutions',
+    title: 'Solutions Temporaires d\'Énergie',
     description:
-      'Rental of high and low voltage substations for construction sites, events, and emergencies.',
+      "Nous offrons des solutions énergétiques temporaires pour répondre aux besoins des chantiers, événements et situations d'urgence avec des équipements haute et basse tension en location.",
     icon: <span>⚡</span>,
   },
   {
-    title: 'Electrical Maintenance and Repairs',
+    title: 'Maintenance et Réparations Électriques',
     description:
-      'Preventive and corrective maintenance services for electrical equipment to ensure system efficiency and safety.',
+      "Nos services de maintenance préventive et corrective assurent la performance optimale de vos installations électriques, tout en garantissant la sécurité et la conformité réglementaire.",
     icon: <span>🔧</span>,
   },
   {
-    title: 'Energy Audits and Consulting',
+    title: 'Audits Énergétiques et Conseil',
     description:
-      'Comprehensive energy audits and expert consultation to optimize energy usage, reduce costs, and improve efficiency.',
+      "Nous réalisons des audits énergétiques approfondis et fournissons des conseils stratégiques pour optimiser l'efficacité énergétique, réduire les coûts opérationnels et améliorer la durabilité.",
     icon: <span>📊</span>,
   },
   {
-    title: 'Automation and Control Systems',
+    title: 'Automatisation et Systèmes de Contrôle',
     description:
-      'Installation and maintenance of automated systems for industrial applications, improving productivity and safety.',
+      "Nous installons et maintenons des systèmes d'automatisation et de contrôle industriel avancés, améliorant la productivité et garantissant la sécurité des opérations.",
     icon: <span>🤖</span>,
   },
-//   {
-//     title: 'Smart Building Solutions',
-//     description:
-//       'Innovative solutions for smart buildings, including energy management, automation, and enhanced security systems.',
-//     icon: <span>🏢</span>,
-//   },
 ];
 
 const Services: React.FC = () => {
   return (
     <section className="bg-gray-100 py-12">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-8">Our Services</h2>
+        <h2 className="text-3xl font-bold text-center mb-8">Nos Services</h2>
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((service, index) => (
             <div key={index} className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">

@@ -8,9 +8,9 @@ import Link from "next/link";
 
 export function Slider() {
   const images = [
-    "https://images.pexels.com/photos/8853510/pexels-photo-8853510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "https://images.pexels.com/photos/15751131/pexels-photo-15751131/free-photo-of-solar-panels-on-a-field.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "https://images.pexels.com/photos/9799715/pexels-photo-9799715.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "1.jpeg",
+    "2.jpeg",
+    "3.jpeg",
   ];
 
   return (
@@ -32,12 +32,11 @@ export function Slider() {
         <div className="flex flex-col md:flex-row justify-between items-center px-5 md:px-10 py-10 md:ml-20 gap-35 md:gap-80">
           {/* Text Section */}
           <div className="text-left md:w-1/2">
-            <motion.p className="font-bold text-2xl sm:text-3xl md:text-6xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-200 py-4">
-              Énergiser la société <br /> en utilisant l&apos;énergie durable
+            <motion.p className="font-bold text-2xl sm:text-3xl md:text-5xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-200 py-4">
+              Alimenter l&apos;avenir <br /> avec des solutions énergétiques durables
             </motion.p>
             <p className="text-neutral-300 mt-4">
-              Nous fournissons les meilleures solutions énergétiques durables
-              pour alimenter votre maison, bureau et communauté.
+              Chez Sotrelec Afrique, nous offrons des solutions énergétiques innovantes et durables pour illuminer vos espaces résidentiels, commerciaux, et industriels.
             </p>
             <div className="flex gap-10 p-5">
               {/* Icon 1 */}
@@ -69,7 +68,7 @@ export function Slider() {
             </div>
          <Link href="/services" className="mt-5">
          <button className="px-4 py-2 backdrop-blur-sm border bg-emerald-300/10 border-emerald-500/20 text-white mx-auto md:mx-0 text-center rounded-full relative mt-4 hover:bg-green-400">
-              <span>Notre service →</span>
+              <span>Découvrir nos services →</span>
               <div className="absolute inset-x-0 h-px -bottom-px bg-gradient-to-r w-3/4 mx-auto from-transparent via-emerald-500 to-transparent" />
             </button>
             </Link>

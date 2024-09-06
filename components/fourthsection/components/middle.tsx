@@ -34,14 +34,12 @@ const Middle = () => {
             <h1 className="text-3xl text-blue-500">
               {isVisible && <CountUp end={6154} duration={2} />}
             </h1>
-            <span className="italic font-bold mt-2 text-white">Projets</span>
+            <span className="italic font-bold mt-2 text-white">Projets Réalisés</span>
           </div>
           <p className="text-sm">
-            Pourtant, ceux qui embrassent le changement
+            Chez Sotrelec Afrique, nous transformons les défis énergétiques en opportunités. 
             <br />
-            prospèrent, construisant des produits plus grands,
-            <br />
-            meilleurs, plus rapides et plus solides que jamais.
+            Nos projets innovants redéfinissent le paysage énergétique avec des solutions plus durables et efficaces.
           </p>
         </div>
         <Separator className="w-24 my-5 items-center" />
@@ -51,14 +49,14 @@ const Middle = () => {
             <h1 className="text-3xl text-blue-500">
               {isVisible && <CountUp end={2512} duration={2} />}
             </h1>
-            <span className="italic font-bold mt-2 text-white">Employés</span>
+            <span className="italic font-bold mt-2 text-white">Employés Engagés</span>
           </div>
           <p className="text-sm">
-            Pourtant, ceux qui embrassent le changement
+            Avec une équipe dévouée de professionnels qualifiés,
             <br />
-            prospèrent, construisant des produits plus grands,
+            nous nous engageons à offrir des solutions énergétiques
             <br />
-            meilleurs, plus rapides et plus solides que jamais.
+            qui répondent aux besoins actuels et futurs de nos clients.
           </p>
         </div>
       </div>
