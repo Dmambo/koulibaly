@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 const WordSection = () => {
     return (
         <div className='flex flex-col md:flex-row justify-between items-center gap-10 md:gap-20'>

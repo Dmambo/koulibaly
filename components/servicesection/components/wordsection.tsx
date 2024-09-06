@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 const WordSection = () => {
     return (
         <div className="flex flex-col items-center justify-center text-center">
