@@ -21,7 +21,7 @@ const FooterLeft = () => {
             width="300"
             height="250"
             style={{ border: 0 }}
-            allowFullScreen=""
+            allowFullScreen
             loading="lazy"
           ></iframe>
         </div>
