@@ -76,7 +76,7 @@ const LowerNav = () => {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -50 }}
               transition={{ duration: 0.3 }}
-              className="md:hidden fixed top-16 left-0 w-full bg-white/50 backdrop-blur-lg shadow-lg transition-transform z-40"
+              className="md:hidden fixed top-16 left-0 w-full bg-white/80 backdrop-blur-lg shadow-lg transition-transform z-40"
             >
               <div className="flex flex-col items-center py-4">
                 <Link
@@ -118,14 +118,7 @@ const LowerNav = () => {
                           <ArrowRight className="text-blue-500 inline-block mr-2" />
                           Comment ça marche
                         </Link>
-                        {/* <Link
-                          href="/company/team"
-                          className="block px-4 py-2 hover:text-blue-500"
-                          onClick={closeMenu}
-                        >
-                          <ArrowRight className="text-blue-500 inline-block mr-2" />
-                          Équipe
-                        </Link> */}
+        
                       </motion.div>
                     )}
                   </AnimatePresence>
@@ -160,12 +153,14 @@ const LowerNav = () => {
 
         <div className="hidden md:block h-8 w-[1px] bg-gray-300"></div>
         <div>
+          <Link href="#quote">
           <Button className="hidden md:flex items-center gap-2 bg-blue-600">
             Demander un devis
             <span>
               <ArrowRight />
             </span>
           </Button>
+          </Link>
         </div>
       </div>
       <Separator />

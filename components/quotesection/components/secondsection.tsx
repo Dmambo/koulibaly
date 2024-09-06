@@ -52,7 +52,7 @@ const SecondSection = () => {
     };
 
     return (
-        <div className="bg-white p-10 text-black max-w-xl mx-auto shadow-lg rounded-lg text-left">
+        <div id="quote" className="bg-white p-10 text-black max-w-xl mx-auto shadow-lg rounded-lg text-left">
             <h2 className="text-3xl font-semibold mb-6 ">Demandez votre devis personnalisé</h2>
             <p className="text-sm text-gray-500 my-4 leading-1">
                 Chez Sotrelec Afrique, nous nous engageons à vous offrir des solutions énergétiques sur mesure et des services de qualité pour tous vos projets solaires et électriques.
