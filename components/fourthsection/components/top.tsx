@@ -5,19 +5,19 @@ const Top = () => {
     return (
         <div className="flex flex-col md:flex-row justify-between items-center gap-8 md:gap-16 lg:gap-32 px-4 md:px-8 lg:px-16 py-8">
             <div className="max-w-lg text-center md:text-left">
-                <p className="text-sm text-blue-500 mb-4">
-                    Leaders en solutions énergétiques renouvelables !
+                <p className="text-sm text-green-600 mb-4">
+                    Pionniers des solutions énergétiques durables en Afrique de l'Ouest !
                 </p>
                 <h1 className="text-3xl md:text-4xl font-bold mb-4">
-                    Systèmes énergétiques pour les secteurs commercial, résidentiel et industriel !
+                    Solutions énergétiques pour les secteurs public, résidentiel et industriel.
                 </h1>
             </div>
             <div className="max-w-lg text-center md:text-left">
                 <p className="text-base md:text-lg mb-8">
-                    Aujourd'hui, Sotrelec Afrique se positionne comme un fournisseur clé de solutions photovoltaïques en Afrique de l'Ouest. Avec notre expertise dans l'approvisionnement en matériaux et la gestion de la chaîne d'approvisionnement, nous garantissons un service complet et de haute qualité, adapté à chaque étape de vos projets énergétiques.
+                    Depuis 2014, Setrelec Afrique se distingue comme un partenaire stratégique dans l'installation, la gestion et la maintenance des infrastructures électriques en Guinée et en Afrique de l'Ouest. Grâce à notre expertise en énergies renouvelables, nous offrons des solutions photovoltaïques et des services adaptés aux besoins de nos clients pour des projets durables et performants.
                 </p>
-                <Button className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4">
-                    Découvrir nos projets →
+                <Button className="bg-green-600 hover:bg-green-700 text-white py-2 px-4">
+                    Découvrez nos réalisations →
                 </Button>
             </div>
         </div>

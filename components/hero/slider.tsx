@@ -37,7 +37,7 @@ export function Slider() {
               Alimenter l&apos;avenir <br /> avec des solutions énergétiques durables
             </motion.p>
             <p className="text-neutral-300 mt-4">
-              Chez Sotrelec Afrique, nous offrons des solutions énergétiques innovantes et durables pour illuminer vos espaces résidentiels, commerciaux, et industriels.
+              Depuis 2014, Setrelec Afrique s'engage à renforcer les infrastructures énergétiques en Guinée, en offrant des solutions innovantes et durables. De l'électricité résidentielle à la production d'énergie renouvelable, nous sommes à vos côtés.
             </p>
             <div className="flex gap-10 p-5">
               {/* Icon 1 */}
@@ -67,11 +67,11 @@ export function Slider() {
                 <Image src="/icon3.png" alt="icon" width="50" height="50" />
               </motion.div>
             </div>
-         <Link href="/services" className="mt-5">
-         <button className="px-4 py-2 backdrop-blur-sm border bg-emerald-300/10 border-emerald-500/20 text-white mx-auto md:mx-0 text-center rounded-full relative mt-4 hover:bg-green-400">
-              <span>Découvrir nos services →</span>
-              <div className="absolute inset-x-0 h-px -bottom-px bg-gradient-to-r w-3/4 mx-auto from-transparent via-emerald-500 to-transparent" />
-            </button>
+            <Link href="/services" className="mt-5">
+              <button className="px-4 py-2 backdrop-blur-sm border bg-emerald-300/10 border-emerald-500/20 text-white mx-auto md:mx-0 text-center rounded-full relative mt-4 hover:bg-green-400">
+                <span>Découvrez nos services →</span>
+                <div className="absolute inset-x-0 h-px -bottom-px bg-gradient-to-r w-3/4 mx-auto from-transparent via-emerald-500 to-transparent" />
+              </button>
             </Link>
           </div>
 

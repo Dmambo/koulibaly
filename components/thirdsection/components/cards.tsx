@@ -9,36 +9,35 @@ const Cards = () => {
     const items = [
         {
             icon: Sun,
-            title: "Panneaux Solaires",
-            desc: "Nous proposons une large gamme de panneaux solaires de haute qualité pour la vente et l'installation, adaptés à tous types de toitures. Optimisez votre consommation d'énergie avec nos solutions durables.",
+            title: "Systèmes Solaires",
+            desc: "Nous fournissons et installons des systèmes solaires de haute qualité pour répondre aux besoins des résidences et des infrastructures. Optimisez vos installations avec nos solutions solaires durables.",
             list: [
-                "Nettoyage et entretien de l'onduleur",
-                "Analyse de l'ombrage pour performance optimale",
-                "Garantie de réparation étendue"
+                "Installation et maintenance de panneaux solaires",
+                "Solutions photovoltaïques pour tous types de toitures",
+                "Garantie de performance et optimisation énergétique"
             ],
         },
         {
             icon: Wind,
-            title: "Éoliennes",
-            desc: "Nos solutions éoliennes sont conçues pour maximiser la production d'électricité tout en réduisant les coûts d'exploitation. Découvrez notre gamme d'éoliennes pour des installations fiables et performantes.",
+            title: "Énergies Éoliennes",
+            desc: "Nos solutions d'énergie éolienne sont conçues pour maximiser la production d'électricité à moindre coût. Faites confiance à notre expertise pour une installation fiable et performante.",
             list: [
-                "Maintenance proactive",
-                "Réduction des coûts opérationnels",
-                "Garantie de maintenance préventive"
+                "Installation et entretien des éoliennes",
+                "Solutions pour réduire les coûts énergétiques",
+                "Maintenance préventive assurée"
             ],
         },
         {
             icon: Droplet,
             title: "Centrales Hydroélectriques",
-            desc: "Exploitez le potentiel de l'énergie hydraulique avec nos centrales hydroélectriques. Nous offrons des services de gestion, d'optimisation, et de maintenance pour assurer une production continue et efficace.",
+            desc: "Exploitez la puissance de l'eau avec nos solutions hydroélectriques. Nous assurons la gestion, l'optimisation et la maintenance des centrales pour garantir une production continue.",
             list: [
-                "Optimisation des actifs hydroélectriques",
-                "Services d'exploitation et de maintenance",
-                "Intégration de solutions numériques et automatisées"
+                "Gestion et optimisation des actifs hydroélectriques",
+                "Solutions d'intégration numérique et automatisée",
+                "Maintenance et support technique 24/7"
             ],
         }
     ];
-    
 
     const [currentIndex, setCurrentIndex] = useState(0);
 

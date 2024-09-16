@@ -4,29 +4,29 @@ import { CircleCheck, BadgeAlert } from "lucide-react";
 
 const FirstSection = () => {
   return (
-    <div className="flex flex-col gap-8">
+    <div className="flex flex-col gap-8 p-6">
       {/* Title and Subtitle */}
       <div className="text-center md:text-left">
         <p className="text-base mb-4 text-blue-500">
           Optimisez vos installations électriques avec nos solutions innovantes.
         </p>
-        <h1 className="text-3xl md:text-4xl font-bold leading-tight">
-          Exploitez le pouvoir 
+        <h1 className="text-3xl md:text-4xl font-bold leading-tight text-gray-800">
+          Exploitez le Pouvoir
           <br />
-          des énergies renouvelables
+          des Énergies Renouvelables
           <br />
-          avec Sotrelec Afrique !
+          avec Setrelec Afrique !
         </h1>
       </div>
 
       {/* Description */}
       <div className="text-center md:text-left">
-        <p className="text-sm">
-          En tant que représentant exclusif de Sotrelec en Afrique de l'Ouest, nous apportons
-          des solutions complètes en énergie solaire, électricité et automatisation. Notre expertise 
-          couvre tout le cycle de l'énergie, de la fourniture d'équipements à la mise en service 
-          d'installations de haute qualité, assurant une transition énergétique durable 
-          pour nos clients et partenaires locaux.
+        <p className="text-sm text-gray-700">
+          En tant que représentant exclusif de Sotrelec en Afrique de l'Ouest, nous proposons
+          des solutions intégrées en énergie solaire, électricité et automatisation. Notre 
+          expertise couvre tout le cycle énergétique, de la fourniture d'équipements à la 
+          mise en service d'installations de haute qualité, garantissant une transition énergétique 
+          durable pour nos clients et partenaires locaux.
         </p>
       </div>
 
@@ -40,10 +40,10 @@ const FirstSection = () => {
             "Conformité aux Normes Internationales",
             "Expertise Technique Certifiée",
           ].map((item, index) => (
-            <li key={index} className="flex items-center gap-3">
+            <li key={index} className="flex items-center gap-3 text-gray-700">
               <CircleCheck
                 size={18}
-                className="text-green-500 bg-gray-800 rounded-full p-1"
+                className="text-green-500 bg-gray-200 rounded-full p-1"
               />
               <span>{item}</span>
             </li>
@@ -60,7 +60,7 @@ const FirstSection = () => {
       
       {/* Bottom Side */}
       <div className="flex items-center gap-2 text-sm text-gray-700">
-        <BadgeAlert size={44} color="white" className="text-green-500" />
+        <BadgeAlert size={44} color="white" className="text-green-500 bg-gray-200 rounded-full p-1" />
         <span>
           Recevez votre devis personnalisé sous 3 à 5 jours ouvrables en remplissant 
           notre formulaire en ligne. 
