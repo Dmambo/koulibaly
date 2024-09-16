@@ -3,8 +3,8 @@
 
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { WalletCards, HousePlug, Plane, Leaf } from "lucide-react";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { WalletCards, HousePlug, Plane, Leaf,ChevronLeft,ChevronRight } from "lucide-react";
+
 
 const CardSection = () => {
   const cards = [
@@ -29,7 +29,6 @@ const CardSection = () => {
       desc: "Nos ingénieurs certifiés conçoivent des solutions solaires complètes adaptées à vos exigences énergétiques uniques.",
     },
   ];
-  
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -82,9 +81,13 @@ const CardSection = () => {
               <CurrentIcon
                 className="w-8 h-8 text-blue-500 mr-4 transition-transform transform group-hover:rotate-180 duration-500"
               />
-              <h3 className="text-xl font-semibold text-black">{cards[currentIndex].title}</h3>
+              <h3 className="text-xl font-semibold text-black">
+                {cards[currentIndex].title}
+              </h3>
             </div>
-            <p className="text-sm text-gray-600 mb-4">{cards[currentIndex].desc}</p>
+            <p className="text-sm text-gray-600 mb-4">
+              {cards[currentIndex].desc}
+            </p>
             <Button className="hover:bg-blue-500 mt-4">
               En savoir plus →
             </Button>

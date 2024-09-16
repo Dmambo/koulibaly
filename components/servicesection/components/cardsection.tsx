@@ -11,21 +11,21 @@ const CardSection = () => {
     const items = [
         {
             image: "p16.jpeg",
-            title: "Finance, chaîne d'approvisionnement",
-            slogan: "Étendre le programme de financement de la chaîne d'approvisionnement solaire",
-            description: "Le grand avantage des panneaux solaires est qu'ils ne nécessitent pas beaucoup d'entretien. Cependant, il est toujours important de les faire vérifier régulièrement pour garantir la sécurité."
+            title: "Finance et Chaîne d'Approvisionnement",
+            slogan: "Optimisation des Financements pour Solutions Énergétiques",
+            description: "Nous étendons notre programme de financement pour optimiser vos projets solaires. Profitez d'un soutien financier solide tout au long du processus d'installation pour une transition énergétique réussie."
         },
         {
             image: "1.jpeg",
-            title: "Énergie, énergie verte",
-            slogan: "Exploiter la puissance de l'énergie éolienne",
-            description: "À mesure que les éoliennes augmentent en taille et en hauteur pour capturer plus d'énergie, et à mesure que les parcs éoliens avec de nombreuses turbines s'étendent sur de plus grandes surfaces et de plus longues distances."
+            title: "Énergie Verte",
+            slogan: "Exploitez la Puissance de l'Énergie Éolienne",
+            description: "Découvrez nos solutions éoliennes innovantes conçues pour maximiser la production d'énergie tout en minimisant les coûts d'exploitation. Adoptez une approche durable pour vos besoins énergétiques."
         },
         {
             image: "p13.jpeg",
-            title: "ÉCO, Énergie Verte",
-            slogan: "Des moyens plus intelligents de gérer l'infrastructure de recharge des VE",
-            description: "Si vous possédez un véhicule électrique (VE), la question récurrente que vous recevrez est : est-il facile de recharger la batterie en déplacement ? Clairement, les gens veulent simplement savoir."
+            title: "Recharge des Véhicules Électriques",
+            slogan: "Gestion Intelligente de l'Infrastructure de Recharge",
+            description: "Nous proposons des solutions intelligentes pour la gestion des infrastructures de recharge des véhicules électriques, garantissant une recharge facile et accessible partout où vous en avez besoin."
         },
     ];
 
@@ -54,14 +54,14 @@ const CardSection = () => {
                             className="w-full h-48 object-cover" 
                         />
                         <div className="p-6">
-                            <p className="font-bold mb-2 text-blue-500">{item.title}</p>
-                            {item.slogan && <h1 className="text-2xl font-semibold mb-4">{item.slogan}</h1>}
+                            <p className="font-bold mb-2 text-green-600">{item.title}</p>
+                            {item.slogan && <h1 className="text-2xl font-semibold mb-4 text-gray-800">{item.slogan}</h1>}
                             {item.description && <p className="text-gray-700 text-base">{item.description}</p>}
                         </div>
                         <div>
                             <Link href="/services">
-                                <Button className="border border-black bg-white text-black flex justify-center items-center m-4">
-                                    Explorer Plus →
+                                <Button className="border border-black bg-white text-black flex justify-center items-center m-4 hover:bg-green-600 hover:text-white">
+                                    Explorer Plus → 
                                 </Button>
                             </Link>
                         </div>
@@ -88,13 +88,13 @@ const CardSection = () => {
                                         className="w-full h-48 object-cover" 
                                     />
                                     <div className="p-6">
-                                        <p className="font-bold mb-2 text-blue-500">{item.title}</p>
-                                        {item.slogan && <h1 className="text-2xl font-semibold mb-4">{item.slogan}</h1>}
+                                        <p className="font-bold mb-2 text-green-600">{item.title}</p>
+                                        {item.slogan && <h1 className="text-2xl font-semibold mb-4 text-gray-800">{item.slogan}</h1>}
                                         {item.description && <p className="text-gray-700 text-base">{item.description}</p>}
                                     </div>
                                     <div>
                                         <Link href="/services">
-                                            <Button className="border border-black bg-white text-black flex justify-center items-center m-4">
+                                            <Button className="border border-black bg-white text-black flex justify-center items-center m-4 hover:bg-green-600 hover:text-white">
                                                 Explorer Plus →
                                             </Button>
                                         </Link>

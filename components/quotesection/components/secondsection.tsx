@@ -1,12 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
-"use client"
+"use client";
 
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import emailjs from 'emailjs-com';
 
 const SecondSection = () => {
-
     const [formData, setFormData] = useState({
         name: "",
         email: "",
@@ -26,15 +25,13 @@ const SecondSection = () => {
 
     const handleSubmit = (e: { preventDefault: () => void; }) => {
         e.preventDefault();
-        emailjs
-        .send(
-          'service_r4qauao',
-          'template_t7bp7yp',
-          formData,
-          'qfKYZS8k3qOWMhcIm'
-        )
-        .then(
-            (result) => {
+        emailjs.send(
+            'service_r4qauao',
+            'template_t7bp7yp',
+            formData,
+            'qfKYZS8k3qOWMhcIm'
+        ).then(
+            () => {
                 alert('Merci pour votre demande. Nous vous répondrons sous peu.');
                 setFormData({
                     name: "",
@@ -46,20 +43,20 @@ const SecondSection = () => {
                     preferredTime: "",
                 });
             },
-            error => {
+            () => {
                 alert("Une erreur est survenue lors de l'envoi du message. Veuillez réessayer.");
             }
-        )
+        );
     };
 
     return (
-        <div id="quote" className="bg-white p-10 text-black max-w-xl mx-auto shadow-lg rounded-lg text-left">
-            <h2 className="text-3xl font-semibold mb-6 ">Demandez votre devis personnalisé</h2>
-            <p className="text-sm text-gray-500 my-4 leading-1">
-                Chez Sotrelec Afrique, nous nous engageons à vous offrir des solutions énergétiques sur mesure et des services de qualité pour tous vos projets solaires et électriques.
+        <div id="quote" className="bg-white p-8 text-black max-w-4xl mx-auto shadow-lg rounded-lg text-left">
+            <h2 className="text-3xl font-semibold mb-6">Demandez votre devis personnalisé</h2>
+            <p className="text-sm text-gray-600 mb-6">
+                Chez Setrelec Afrique, nous nous engageons à vous offrir des solutions énergétiques sur mesure et des services de qualité pour tous vos projets solaires et électriques.
             </p>
             <form onSubmit={handleSubmit}>
-                <div className="flex gap-5">
+                <div className="grid gap-6 md:grid-cols-2">
                     <div className="mb-4">
                         <label htmlFor="name" className="block text-sm font-medium mb-2">Nom</label>
                         <input
@@ -70,6 +67,7 @@ const SecondSection = () => {
                             onChange={handleChange}
                             className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 text-sm"
                             placeholder="Votre nom"
+                            required
                         />
                     </div>
 
@@ -83,6 +81,7 @@ const SecondSection = () => {
                             onChange={handleChange}
                             className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 text-sm"
                             placeholder="Votre email"
+                            required
                         />
                     </div>
                 </div>
@@ -97,6 +96,7 @@ const SecondSection = () => {
                         onChange={handleChange}
                         className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 text-sm"
                         placeholder="+224 Votre numéro de téléphone"
+                        required
                     />
                 </div>
 
@@ -110,7 +110,7 @@ const SecondSection = () => {
                         className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
                         required
                     >
-                        <option value="" disabled selected>Choisissez un service</option>
+                        <option value="" disabled>Choisissez un service</option>
                         <option value="solar">Installation de panneaux solaires</option>
                         <option value="electrical">Installation de systèmes électriques</option>
                         <option value="maintenance">Maintenance et réparations</option>
@@ -132,28 +132,30 @@ const SecondSection = () => {
                     ></textarea>
                 </div>
 
-                <div className="mb-4">
-                    <label htmlFor="preferredDate" className="block text-sm font-medium mb-2">Date préférée</label>
-                    <input
-                        type="date"
-                        id="preferredDate"
-                        name="preferredDate"
-                        value={formData.preferredDate}
-                        onChange={handleChange}
-                        className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
-                    />
-                </div>
+                <div className="grid gap-6 md:grid-cols-2">
+                    <div className="mb-4">
+                        <label htmlFor="preferredDate" className="block text-sm font-medium mb-2">Date préférée</label>
+                        <input
+                            type="date"
+                            id="preferredDate"
+                            name="preferredDate"
+                            value={formData.preferredDate}
+                            onChange={handleChange}
+                            className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+                        />
+                    </div>
 
-                <div className="mb-4">
-                    <label htmlFor="preferredTime" className="block text-sm font-medium mb-2">Heure préférée</label>
-                    <input
-                        type="time"
-                        id="preferredTime"
-                        name="preferredTime"
-                        value={formData.preferredTime}
-                        onChange={handleChange}
-                        className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
-                    />
+                    <div className="mb-4">
+                        <label htmlFor="preferredTime" className="block text-sm font-medium mb-2">Heure préférée</label>
+                        <input
+                            type="time"
+                            id="preferredTime"
+                            name="preferredTime"
+                            value={formData.preferredTime}
+                            onChange={handleChange}
+                            className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+                        />
+                    </div>
                 </div>
 
                 <div className="text-center">

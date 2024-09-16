@@ -15,7 +15,7 @@ const Company: React.FC = () => {
             Bienvenue chez <strong>Sotrelec Afrique</strong>, le fier représentant de <strong>Sotrelec</strong> en France, étendant notre expertise et nos solutions innovantes à travers l'Afrique de l'Ouest.
           </p>
           <div className="flex justify-center mb-8">
-            <div className="relative w-96 h-32 md:w-2/3 md:h-96">
+            <div className="relative w-full h-48 md:w-2/3 md:h-96">
               <Image
                 src="/3.jpeg" // Replace with the path to your actual image
                 alt="Siège de Sotrelec"
