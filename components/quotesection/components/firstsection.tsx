@@ -21,7 +21,7 @@ const FirstSection = () => {
 
       {/* Description */}
       <div className="text-center md:text-left">
-        <p className="text-sm text-gray-700">
+        <p className="text-sm text-gray-400">
           En tant que représentant exclusif de Sotrelec en Afrique de l'Ouest, nous proposons
           des solutions intégrées en énergie solaire, électricité et automatisation. Notre 
           expertise couvre tout le cycle énergétique, de la fourniture d'équipements à la 
@@ -40,10 +40,10 @@ const FirstSection = () => {
             "Conformité aux Normes Internationales",
             "Expertise Technique Certifiée",
           ].map((item, index) => (
-            <li key={index} className="flex items-center gap-3 text-gray-700">
+            <li key={index} className="flex items-center gap-3 text-gray-400">
               <CircleCheck
                 size={18}
-                className="text-green-500 bg-gray-200 rounded-full p-1"
+                className="text-green-500 bg-blue-500 rounded-full p-1"
               />
               <span>{item}</span>
             </li>
@@ -59,8 +59,8 @@ const FirstSection = () => {
       </div>
       
       {/* Bottom Side */}
-      <div className="flex items-center gap-2 text-sm text-gray-700">
-        <BadgeAlert size={44} color="white" className="text-green-500 bg-gray-200 rounded-full p-1" />
+      <div className="flex items-center gap-2 text-sm text-gray-400">
+        <BadgeAlert size={44} color="white" className="text-green-500 bg-blue rounded-full p-1" />
         <span>
           Recevez votre devis personnalisé sous 3 à 5 jours ouvrables en remplissant 
           notre formulaire en ligne. 
