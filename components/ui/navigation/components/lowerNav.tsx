@@ -86,43 +86,14 @@ const LowerNav = () => {
                 >
                   Accueil
                 </Link>
+                <Link
+                  href="/company"
+                  className="py-2 text-lg hover:text-blue-500"
+                  onClick={closeMenu}
+                >
+                  Entreprise
+                </Link>
 
-                <div className="relative group">
-                  <button
-                    onClick={toggleDropdown}
-                    className="flex items-center gap-2 py-2 text-lg hover:text-blue-500"
-                  >
-                    Entreprise <ChevronDown />
-                  </button>
-                  <AnimatePresence>
-                    {dropdownOpen && (
-                      <motion.div
-                        initial={{ opacity: 0, height: 0 }}
-                        animate={{ opacity: 1, height: "auto" }}
-                        exit={{ opacity: 0, height: 0 }}
-                        className="w-full bg-white/80 backdrop-blur-lg shadow-lg rounded-md text-sm text-gray-500"
-                      >
-                        <Link
-                          href="/company/about"
-                          className="block px-4 py-2 hover:text-blue-500"
-                          onClick={closeMenu}
-                        >
-                          <ArrowRight className="text-blue-500 inline-block mr-2" />
-                          À propos
-                        </Link>
-                        <Link
-                          href="/company/how-it-works"
-                          className="block px-4 py-2 hover:text-blue-500"
-                          onClick={closeMenu}
-                        >
-                          <ArrowRight className="text-blue-500 inline-block mr-2" />
-                          Comment ça marche
-                        </Link>
-        
-                      </motion.div>
-                    )}
-                  </AnimatePresence>
-                </div>
 
                 <Link
                   href="/services"
