@@ -5,9 +5,9 @@ const FooterLeft = () => {
     <div className="space-y-8 md:space-y-12">
       {/* Section de Contact */}
       <div className="text-center md:text-left">
-        <h1 className="text-2xl md:text-4xl mb-3">+224613956391</h1>
+        <h1 className="text-2xl md:text-4xl mb-3">+224 621 09 99 52</h1>
         <p className="flex justify-center md:justify-start text-blue-500">
-          Email: ibkhalidworld@gmail.com
+          info@sotrelecafrique.com
         </p>
       </div>
 

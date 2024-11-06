@@ -11,7 +11,7 @@ const Bottom = () => {
       <div className="relative z-10 md:w-1/2 flex flex-col items-start bg-black bg-opacity-50 p-4 rounded-lg md:bg-transparent md:p-0">
         <h4 className="mb-4">
           Vous avez des questions ou besoin d'assistance ? Notre équipe est là pour vous aider. Contactez-nous à tout moment ou appelez-nous au{" "}
-          <span className="text-blue-500">(224) 613956391</span>.
+          <span className="text-blue-500">(224) 621099952</span>.
         </h4>
         <Link href="#quote">
           <Button className="bg-transparent text-white border border-white hover:bg-white hover:text-black transition">

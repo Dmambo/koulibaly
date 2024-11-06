@@ -65,7 +65,7 @@ const FirstSection = () => {
           Recevez votre devis personnalisé sous 3 à 5 jours ouvrables en remplissant 
           notre formulaire en ligne. 
           <br/> Pour toute urgence, contactez-nous directement au : 
-          <span className="underline hover:no-underline hover:text-green-500"> (224) 956391</span>
+          <span className="underline hover:no-underline hover:text-green-500"> (224) 621099952</span>
         </span>
       </div>
     </div>
