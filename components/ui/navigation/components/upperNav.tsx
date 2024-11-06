@@ -9,7 +9,7 @@ const UpperNav = () => {
           {" "}
           <span className="flex">
             <Phone className=" text-blue-600 w-5 h-5" /></span>
-          Phone: <span className=" hover:text-green-400">+224613956391</span>
+          Phone: <span className=" hover:text-green-400">+224621099952</span>
         </div>
         <div className="flex gap-2">
           {" "}
@@ -17,7 +17,7 @@ const UpperNav = () => {
             <Mail className=" text-blue-600 w-5 h-5" />
           </span>
           Email:{" "}
-          <span className=" hover:text-green-400">ibkhalidworld@gmail.com</span>
+          <span className=" hover:text-green-400">coulibaly@sotrelecafrique.com</span>
         </div>
         <div className="flex gap-2">
           {" "}
